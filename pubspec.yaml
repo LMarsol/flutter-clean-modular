@@ -1,0 +1,28 @@
+name: flutter_clean_modular
+description: Flutter app using Clean and Modular
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^3.2.2+1
+  flutter_bloc: ^7.0.1
+  equatable: ^2.0.2
+  dartz: ^0.10.0-nullsafety.2
+  shared_preferences: ^2.0.6
+  internet_connection_checker: ^0.0.1+1
+  dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
